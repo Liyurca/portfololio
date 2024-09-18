@@ -1,0 +1,99 @@
+/* Reset básico para garantir que os estilos sejam consistentes em diferentes navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: #ffffff;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1f1f1f;
+}
+
+.logo i {
+    font-size: 24px;
+    color: #00fe08; /* Cor verde */
+}
+
+.Cabeçalho-link ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.Cabeçalho-link a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.Cabeçalho-link a:hover {
+    color: #00fe08; /* Cor verde para hover */
+}
+
+button {
+    background-color: #00fe08;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00d700; /* Cor verde mais escura para hover */
+}
+
+/* Estilo para a seção do portfólio */
+.portifolio {
+    padding: 20px;
+}
+
+.interface h2 {
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+.LIYURCA.TUG, .img-port {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.LIYURCA.TUG {
+    background-image: url('Imagem1.png');
+}
+
+.img-port {
+    background-image: url('Imagem2.png');
+}
+

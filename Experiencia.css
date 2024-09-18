@@ -1,0 +1,154 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=SUSE:wght@100;300;400;500;700;800&display=swap');
+
+/* Resets e estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif; /* Substituído por Roboto */
+}
+
+body {
+    overflow: hidden;
+    background-color: gray;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #28d606;
+    color: #1de61d;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.Cabeçalho-link {
+    display: flex;
+    gap: 3srem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Cabeçalho-link ul {
+    display: flex;
+    gap: 30px;
+}
+
+.Cabeçalho-link a {
+    color: #f6e9e9;
+    font-size: 18px;
+    border: none;
+    transition: color 0.3s;
+}
+
+.Cabeçalho-link a:hover {
+    background-color: #0cdb39;
+    color: #fff;
+}
+
+.Cabeçalho-link a button {
+    color: #2ece2e;
+    background: transparent;
+    border: solid 1px #2ece2e;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.Cabeçalho-link a button:hover {
+    background-color: #2ece2e;
+    color: #fff;
+}
+
+/* Seção de especialidades */
+section .especialidades {
+    padding: 40px 4%;
+}
+
+section .especialidades .flex {
+    display: flex;
+    gap: 60px;
+}
+
+.especialidades .especialidades-box {
+    color: #fff;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.35);
+}
+
+.especialidades .especialidades-box i {
+    font-size: 70px;
+    color: #00fe08;
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/* Container de texto */
+.container-text {
+    padding: 150px 0 0 130px;
+}
+
+.text h3 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.text h1 {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.text span {
+    color: #2ece2e;
+}
+
+.text p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* Redes sociais */
+.redes-socias a {
+    color: #2ece2e;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+/* Botão */
+.btn {
+    margin-top: 10px;
+}

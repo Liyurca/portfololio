@@ -1,0 +1,169 @@
+/* Importando fontes */
+@import url('https://fonts.googleapis.com/share?selection.family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900|SUSE:wght@100..800');
+
+/* Reseta padrões de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos do corpo */
+body {
+    overflow: hidden;
+    background-color: gray;
+}
+
+/* Estilos do cabeçalho */
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.Cabeçalho-link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Cabeçalho-link ul {
+    list-style-type: none;
+}
+
+.Cabeçalho-link ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+.Cabeçalho-link a {
+    color: #f6e9e9;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.Cabeçalho-link a:hover {
+    color: #fff;
+    background-color: #0cdb39;
+    box-shadow: 0 0 8px #0cdb39;
+    transition: 0.3s;
+}
+
+/* Estilos do logo */
+.logo {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #28d606;
+    color: #1de61d;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+/* Estilos dos botões */
+button {
+    color: #2ece2e;
+    background: transparent;
+    border: solid 1px #2ece2e;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2ece2e;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* Estilos do texto principal */
+.container-text {
+    padding: 150px 0 0 130px;
+}
+
+.text h3 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.text h1 {
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* Estilos da seção de contato */
+section.formulario {
+    padding: 80px 4%;
+    background: gray;
+    border-radius: 15px; /* Arredonda os cantos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adiciona sombra para destaque */
+}
+
+section.formulario h2 {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px; /* Ajusta a largura máxima do formulário */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adiciona mais espaço entre os elementos */
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Escurece o fundo dos campos */
+    border: 1px solid #333; /* Adiciona borda ao redor dos campos */
+    outline: none; /* Remove o contorno padrão do navegador */
+    padding: 15px;
+    border-radius: 10px; /* Arredonda os cantos dos campos */
+    color: #fff;
+    font-size: 16px; /* Ajusta o tamanho da fonte para melhor legibilidade */
+}
+
+form textarea {
+    resize: vertical; /* Permite apenas redimensionar verticalmente */
+    min-height: 
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 100%;
+    max-width: 180px; /* Ajusta a largura máxima do botão */
+    background-color: #15f048;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px; /* Arredonda os cantos do botão */
+    font-size: 18px; /* Ajusta o tamanho da fonte do botão */
+}
+
+form .btn-enviar input:hover {
+    background-color: #13e043; /* Muda a cor do fundo no hover */
+    color: #fff;
+}

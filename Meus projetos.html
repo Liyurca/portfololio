@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Projetos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: gray;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .logo i {
+            font-size: 24px;
+        }
+        .Cabeçalho-link ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .Cabeçalho-link ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .Cabeçalho-link a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .Cabeçalho-link button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: gray;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .Cabeçalho-link button:hover {
+            background-color: darkgray;
+        }
+        .projects-container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .projects-container h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .project {
+            margin-bottom: 20px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+        }
+        .project img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .project h2 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .project p {
+            font-size: 16px;
+            color: #666;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            font-size: 16px;
+            color: white;
+            background-color: gray;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: darkgray;
+        }
+        .project-placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            background-color: #eee;
+            border: 2px dashed #ccc;
+            border-radius: 8px;
+            font-size: 18px;
+            color: #999;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="projects-container">
+        <h1>Meus Projetos</h1>
+        <div class="project">
+            <img src="projeto1.png" alt="Desenvolvedor de software">
+            <h2>Projeto 1</h2>
+            <p>Um desenvolvedor de software é um profissional que projeta, desenvolve, testa e mantém aplicativos e sistemas de software. Eles trabalham em uma ampla variedade de plataformas, incluindo desktop, web e dispositivos móveis. O trabalho de um desenvolvedor de software envolve várias atividades e pode variar dependendo do tipo de software que estão desenvolvendo. Aqui estão algumas das principais responsabilidades e áreas de especialização para desenvolvedores de software:
+
+            </p>
+            <a href="link-para-o-projeto1.html" class="btn">Ver Projeto</a>
+        </div>
+
+        <div class="project">
+            <img src="projeto2.png" alt="Desenvolvedor web">
+            <h2>Projeto 2</h2>
+            <p>Um desenvolvedor web é um profissional que cria e mantém sites e aplicações web. O trabalho de um desenvolvedor web pode variar dependendo de sua especialização e do tipo de projeto em que está envolvido. Aqui estão algumas das principais responsabilidades e áreas de especialização para desenvolvedores web:
+
+            </p>
+            <a href="link-para-o-projeto2.html" class="btn">Ver Projeto</a>
+        </div>
+    </div>
+</body>
+</html>
